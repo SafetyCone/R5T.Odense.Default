@@ -1,4 +1,17 @@
 R5T.Odense.Default - A default service implementations library for the Odense project.
 
+See the list of solution file project type GUIDs here:
+https://www.codeproject.com/Reference/720512/List-of-Visual-Studio-Project-Type-GUIDs
+
+
+Our list includes:
+
+* 2150E333-8FDC-42A3-9474-1A3956D46DE8 - Solution folder.
+* FAE04EC0-301F-11D3-BF4B-00C04F79EFBC - .NET Standard library C# project (value from creating a new Visual Studio 2017 .NET Standard library solution).
+
+Additionally, there seems to be some confusion over the GUID 9A19103F-16F7-4668-BE54-9A1E7A4F7556 applies for SDK-style projects.
+
+
 Goals
 
+Create a default IVisualStudioSolutionFileProjectTypeGuidProvider implementation that provides Visual Studio solution file project type GUID values.
