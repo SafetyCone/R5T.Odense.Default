@@ -1,9 +1,9 @@
-﻿using System;
+using System;using R5T.T0064;
 
 
 namespace R5T.Odense.Default
-{
-    public class VisualStudioSolutionFileProjectTypeGuidProvider : IVisualStudioSolutionFileProjectTypeGuidProvider
+{[ServiceImplementationMarker]
+    public class VisualStudioSolutionFileProjectTypeGuidProvider : IVisualStudioSolutionFileProjectTypeGuidProvider,IServiceImplementation
     {
         public Guid GetCSharpNetStandardLibraryProjectTypeGuid()
         {
